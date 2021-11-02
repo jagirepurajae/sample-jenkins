@@ -12,6 +12,11 @@ public class JenkinsdemoApplication {
 	{
 		System.out.println("inside showmessage()");
 	}
+	public void addData()
+	{
+		System.out.println("inside addData()");
+	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsdemoApplication.class, args);
 	}
